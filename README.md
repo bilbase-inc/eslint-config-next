@@ -5,7 +5,7 @@ ESLint rules for Next.js
 
 1. Run the install command
    ```bash
-   $ npm install -D @bilbase-inc/eslint-config-next
+   $ npm install -D bilbase-inc/eslint-config-next
    ```
 2. You also need to install peer dependencies
    ```bash
@@ -18,5 +18,5 @@ ESLint rules for Next.js
 
 ```yaml
 extends:
-  - "@bilbase-inc/eslint-config-next"
+  - "bilbase-inc/eslint-config-next"
 ```

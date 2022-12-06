@@ -1,7 +1,7 @@
 {
   "name": "@bilbase-inc/eslint-config-next",
   "version": "1.0.0",
-  "description": "Next.js用 ESLintルール",
+  "description": "ESLint rules for Next.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
