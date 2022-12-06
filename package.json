@@ -1,0 +1,30 @@
+{
+  "name": "@bilbase-inc/eslint-config-next",
+  "version": "1.0.0",
+  "description": "Next.js用 ESLintルール",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilbase-inc/eslint-config-next.git"
+  },
+  "author": "kawano-020 <72139019+kawano-020@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bilbase-inc/eslint-config-next/issues"
+  },
+  "homepage": "https://github.com/bilbase-inc/eslint-config-next#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/bilbase-inc"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}
