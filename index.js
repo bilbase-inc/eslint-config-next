@@ -20,9 +20,9 @@ module.exports = {
     "import-name": "off",
     align: "off",
     semi: ["error", "never"],
-    quotes: "single",
+    quotes: ["error", "single"],
     "comma-dangle": ["error", "never"],
-    "arrow-parens": "always",
+    "arrow-parens": ["error", "always"],
     "no-submodule-imports": "off",
     "react-hooks/rules-of-hooks": "error",
     "react/jsx-filename-extension": [
