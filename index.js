@@ -1,26 +1,26 @@
 module.exports = {
-  "plugins": ["@typescript-eslint", "react", "react-hooks", "jsx-a11y", "import"],
-  "parser": "@typescript-eslint/parser",
-  "extends": [
+  plugins: ["@typescript-eslint", "react", "react-hooks", "jsx-a11y", "import"],
+  parser: "@typescript-eslint/parser",
+  extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
   ],
-  "settings": {
-    "react": {
-      "version": "detect",
+  settings: {
+    react: {
+      version: "detect",
     },
     "import/resolver": {
-      "typescript": {
-        "alwaysTryTypes": true,
+      typescript: {
+        alwaysTryTypes: true,
       },
     },
   },
-  "rules": {
+  rules: {
     "import-name": "off",
-    "align": "off",
-    "semi": "never",
-    "quotes": "single",
+    align: "off",
+    semi: ["error", "never"],
+    quotes: "single",
     "comma-dangle": ["error", "never"],
     "arrow-parens": "always",
     "no-submodule-imports": "off",
@@ -28,16 +28,16 @@ module.exports = {
     "react/jsx-filename-extension": [
       "error",
       {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
     ],
     "import/extensions": [
       "off",
       {
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never",
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never",
       },
     ],
     "react/prop-types": 0,
@@ -50,4 +50,4 @@ module.exports = {
     // import { default as React } from 'react'を必要としないようにする
     "react/react-in-jsx-scope": "off",
   },
-}
+};
