@@ -25,6 +25,7 @@ module.exports = {
     "arrow-parens": ["error", "always"],
     "no-submodule-imports": "off",
     "react-hooks/rules-of-hooks": "error",
+    "jsx-quotes": ["error", "prefer-double"],
     "react/jsx-filename-extension": [
       "error",
       {
